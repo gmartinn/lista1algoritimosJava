@@ -1,0 +1,20 @@
+package lista1alg24;
+import java.util.Scanner;
+
+public class Algoritimo24 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		double C = 0.0;
+		
+		System.out.println("Digite a temperatura em centigrados: ");
+		C = sc.nextInt();
+		
+		int F = (int) ((C * 9/5) + 32);
+		System.out.printf("A temperatura em Fahrenheit eh: %d F", F);
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package lista1alg18;
+import java.util.Scanner;
+import java.math.*;
+
+public class Algoritimo18 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int r = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Insira o valor do raio: ");
+		r = sc.nextInt();
+		//2 pi r = p
+		//pi r2 = a
+		double p = 2 * Math.PI * r;
+		double a = Math.PI * Math.sqrt(r);
+		
+		System.out.printf("o valor do perimetro eh: %.2f", p);
+		System.out.printf("o valor da area eh: %.2f", a);
+	}
+
+}

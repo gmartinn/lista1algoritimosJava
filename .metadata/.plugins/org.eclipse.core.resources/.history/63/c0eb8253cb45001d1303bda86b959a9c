@@ -1,0 +1,23 @@
+package lista1alg12;
+import java.util.Scanner;
+
+public class Algoritimo12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		double a = 0.0;
+		double b = 0.0;
+		double c = 0.0;
+		
+		System.out.println("Digite dois numeros: ");
+		a = sc.nextDouble();
+		b = sc.nextDouble();
+		c = (a + b)/2;
+		
+		System.out.println("media: ");
+		System.out.printf("%.2f");
+	}
+
+}

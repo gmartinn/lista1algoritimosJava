@@ -1,0 +1,21 @@
+package lista1alg7;
+import java.util.Scanner;
+
+public class Algoritimo7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 0;
+		
+		Scanner ler = new Scanner(System.in);
+		System.out.println("Digite dois numeros inteiros: ");
+		a = ler.nextInt();
+		
+		int a1 = a - 1;
+		int a2 = a + 1;
+		
+		System.out.printf("antecessor: %d/nNumero digitado: %d/nSucessor: %d", a1, a, a2);
+	}
+
+}
